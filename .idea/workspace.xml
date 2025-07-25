@@ -9,9 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b1db1df-d1fe-4377-9129-200722be062b" name="Changes" comment="Inject">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rukiye/cdi/_03_Inject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/_03_Inject.xhtml" afterDir="false" />
+    <list default="true" id="3b1db1df-d1fe-4377-9129-200722be062b" name="Changes" comment="Scoped">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +60,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JBoss/WildFly Server.JBoss/WildFly 36.0.1.Final1.executor": "Run",
+    "JavaScript Debug.PatronCalisan.xhtml.executor": "Run",
     "JavaScript Debug._01_Named.xhtml.executor": "Run",
     "JavaScript Debug._02_Inject.xhtml.executor": "Run",
+    "JavaScript Debug._04_New.xhtml.executor": "Run",
     "Maven.PatikaSpringFramework [clean].executor": "Run",
     "Maven.PatikaSpringFramework [package].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -71,7 +72,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/tapan/Javaproje/PatikaSpringFramework/src/main/webapp",
+    "last_opened_file_path": "C:/Users/tapan/Javaproje/PatikaSpringFramework/src/main/webapp/iocsiz_disiz",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,10 +87,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tapan\Javaproje\PatikaSpringFramework\src\main\webapp\iocsiz_disiz" />
       <recent name="C:\Users\tapan\Javaproje\PatikaSpringFramework\src\main\webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug._03_Inject.xhtml">
+  <component name="RunManager" selected="JavaScript Debug.PatronCalisan.xhtml">
     <configuration name="JBoss/WildFly 36.0.1.Final1" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss/WildFly 36.0.1.Final1" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="PatikaSpringFramework:war exploded">
@@ -127,14 +129,22 @@
         </option>
       </method>
     </configuration>
+    <configuration name="PatronCalisan.xhtml" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT/iocsiz_disiz/PatronCalisan.xhtml">
+      <method v="2" />
+    </configuration>
     <configuration name="_01_Named.xhtml" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT/_01_Named.xhtml">
       <method v="2" />
     </configuration>
     <configuration name="_03_Inject.xhtml" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT/_03_Inject.xhtml">
       <method v="2" />
     </configuration>
+    <configuration name="_04_New.xhtml" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT/_04_New.xhtml">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.PatronCalisan.xhtml" />
+        <item itemvalue="JavaScript Debug._04_New.xhtml" />
         <item itemvalue="JavaScript Debug._03_Inject.xhtml" />
         <item itemvalue="JavaScript Debug._01_Named.xhtml" />
       </list>
@@ -160,7 +170,7 @@
       <workItem from="1753231518941" duration="2148000" />
       <workItem from="1753233701596" duration="313000" />
       <workItem from="1753234027563" duration="2383000" />
-      <workItem from="1753457892588" duration="5057000" />
+      <workItem from="1753457892588" duration="11178000" />
     </task>
     <task id="LOCAL-00001" summary="PermaLink">
       <option name="closed" value="true" />
@@ -194,7 +204,63 @@
       <option name="project" value="LOCAL" />
       <updated>1753465262141</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Inject">
+      <option name="closed" value="true" />
+      <created>1753465991862</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1753465991862</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Java Tutorials">
+      <option name="closed" value="true" />
+      <created>1753466136966</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1753466136966</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1753466162757</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1753466162757</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Shelved">
+      <option name="closed" value="true" />
+      <created>1753466203979</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1753466203980</updated>
+    </task>
+    <task id="LOCAL-00009" summary="workspace">
+      <option name="closed" value="true" />
+      <created>1753466235165</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1753466235165</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Instance&lt;T&gt; (New)">
+      <option name="closed" value="true" />
+      <created>1753469022113</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1753469022113</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Scoped">
+      <option name="closed" value="true" />
+      <created>1753469402187</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1753469402187</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +272,24 @@
     <MESSAGE value="@Named" />
     <MESSAGE value="Produces" />
     <MESSAGE value="Inject" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inject" />
+    <MESSAGE value="Java Tutorials" />
+    <MESSAGE value="Changes" />
+    <MESSAGE value="Shelved" />
+    <MESSAGE value="workspace" />
+    <MESSAGE value="Instance&lt;T&gt;" />
+    <MESSAGE value="Instance&lt;T&gt; (New)" />
+    <MESSAGE value="Scoped" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scoped" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rukiye/cdi/_04_New.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
