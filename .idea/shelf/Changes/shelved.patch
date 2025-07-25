@@ -1,0 +1,38 @@
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Default ignored files\r\n/shelf/\r\n/workspace.xml\r\n# Editor-based HTTP Client requests\r\n/httpRequests/\r\n# Environment-dependent path to Maven home directory\r\n/mavenHomeManager.xml\r\n# Datasource local storage ignored files\r\n/dataSources/\r\n/dataSources.local.xml\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+--- a/.idea/.gitignore	(revision 0974122fd34f54c86222066890b156a4b85cc8a0)
++++ b/.idea/.gitignore	(date 1753234439216)
+@@ -1,10 +1,17 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+-# Editor-based HTTP Client requests
+-/httpRequests/
+-# Environment-dependent path to Maven home directory
+-/mavenHomeManager.xml
+-# Datasource local storage ignored files
+-/dataSources/
+-/dataSources.local.xml
++# IntelliJ IDEA
++.idea/
++*.iml
++
++# Maven
++target/
++
++# Diğer yaygın ignore'lar
++*.class
++*.log
++*.jar
++*.war
++*.ear
++
++# OS
++.DS_Store
++Thumbs.db
