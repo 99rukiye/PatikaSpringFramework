@@ -7,7 +7,7 @@ import jakarta.inject.Named;
 
 
 @QualifierMultiple
-@Named
+@Named("patron2_qualifier")
 @ApplicationScoped
 public class Patron2 implements PatronInterface {
 
