@@ -18,4 +18,5 @@ public class DecoratorBean {
     public String beanMethod(String data){
         return iEv.boyama(data);
     }
+
 }

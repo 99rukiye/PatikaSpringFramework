@@ -9,11 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b1db1df-d1fe-4377-9129-200722be062b" name="Changes" comment="Qualifier (4 class)">
+    <list default="true" id="3b1db1df-d1fe-4377-9129-200722be062b" name="Changes" comment="stereotype">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rukiye/qualifier3/Patron1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rukiye/qualifier3/Patron1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/qualifier3/PatronCalisan.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/qualifier3/PatronCalisan.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,9 @@
     "JavaScript Debug._01_Named.xhtml.executor": "Run",
     "JavaScript Debug._02_Inject.xhtml.executor": "Run",
     "JavaScript Debug._04_New.xhtml.executor": "Run",
+    "JavaScript Debug.decorator.xhtml.executor": "Run",
     "JavaScript Debug.interceptorislogin.xhtml.executor": "Run",
+    "JavaScript Debug.stereotype.xhtml.executor": "Run",
     "Maven.PatikaSpringFramework [clean].executor": "Run",
     "Maven.PatikaSpringFramework [package].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -112,7 +112,7 @@
       <recent name="com.rukiye.iocli_dili" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.interceptorislogin.xhtml">
+  <component name="RunManager" selected="JavaScript Debug.decorator.xhtml">
     <configuration name="JBoss/WildFly 36.0.1.Final1" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss/WildFly 36.0.1.Final1" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="PatikaSpringFramework:war exploded">
@@ -168,28 +168,28 @@
         </option>
       </method>
     </configuration>
-    <configuration name="PatronCalisan.xhtml (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT/iocli_dili/PatronCalisan.xhtml">
-      <method v="2" />
-    </configuration>
-    <configuration name="PatronCalisan.xhtml (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT/alternative/PatronCalisan.xhtml">
-      <method v="2" />
-    </configuration>
     <configuration name="PatronCalisan.xhtml (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT/qualifier/PatronCalisan.xhtml">
       <method v="2" />
     </configuration>
     <configuration name="PatronCalisan.xhtml (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT/qualifier3/PatronCalisan.xhtml">
       <method v="2" />
     </configuration>
+    <configuration name="decorator.xhtml" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT/aop_decorator/decorator.xhtml">
+      <method v="2" />
+    </configuration>
     <configuration name="interceptorislogin.xhtml" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT/aop_interceptor/interceptorislogin.xhtml">
+      <method v="2" />
+    </configuration>
+    <configuration name="stereotype.xhtml" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT/aop_stereotype/stereotype.xhtml">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.decorator.xhtml" />
+        <item itemvalue="JavaScript Debug.stereotype.xhtml" />
         <item itemvalue="JavaScript Debug.interceptorislogin.xhtml" />
         <item itemvalue="JavaScript Debug.PatronCalisan.xhtml (4)" />
         <item itemvalue="JavaScript Debug.PatronCalisan.xhtml (3)" />
-        <item itemvalue="JavaScript Debug.PatronCalisan.xhtml (2)" />
-        <item itemvalue="JavaScript Debug.PatronCalisan.xhtml (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +217,7 @@
       <workItem from="1753480225208" duration="2242000" />
       <workItem from="1753537328325" duration="4970000" />
       <workItem from="1753572768698" duration="4251000" />
-      <workItem from="1753627056549" duration="6089000" />
+      <workItem from="1753627056549" duration="8816000" />
     </task>
     <task id="LOCAL-00001" summary="PermaLink">
       <option name="closed" value="true" />
@@ -363,7 +363,31 @@
       <option name="project" value="LOCAL" />
       <updated>1753576220426</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="revize">
+      <option name="closed" value="true" />
+      <created>1753634829094</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1753634829094</updated>
+    </task>
+    <task id="LOCAL-00020" summary="interceptor">
+      <option name="closed" value="true" />
+      <created>1753634879944</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1753634879944</updated>
+    </task>
+    <task id="LOCAL-00021" summary="stereotype">
+      <option name="closed" value="true" />
+      <created>1753635847785</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1753635847785</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,7 +422,10 @@
     <MESSAGE value="Alternative" />
     <MESSAGE value="Qualifier (2 class)" />
     <MESSAGE value="Qualifier (4 class)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Qualifier (4 class)" />
+    <MESSAGE value="revize" />
+    <MESSAGE value="interceptor" />
+    <MESSAGE value="stereotype" />
+    <option name="LAST_COMMIT_MESSAGE" value="stereotype" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

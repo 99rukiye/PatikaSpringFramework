@@ -12,4 +12,9 @@
 <interceptors>
     <class>com.rukiye.aop.interceptor.InterceptorYolKesiciAsilIs</class>
 </interceptors>
+
+    <decorators>
+
+        <class>com.rukiye.aop.decorator.EvDecorator</class>
+    </decorators>
 </beans>
