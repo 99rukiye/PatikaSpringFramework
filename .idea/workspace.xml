@@ -9,8 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b1db1df-d1fe-4377-9129-200722be062b" name="Changes" comment="Scoped">
+    <list default="true" id="3b1db1df-d1fe-4377-9129-200722be062b" name="Changes" comment="Qualifier (4 class)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rukiye/qualifier3/Patron1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rukiye/qualifier3/Patron1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/qualifier3/PatronCalisan.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/qualifier3/PatronCalisan.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +25,7 @@
       <list>
         <option value="jsf" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -48,11 +52,17 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="30EFqvXgGUPZJTHzzxFSisnr2LD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,10 +70,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JBoss/WildFly Server.JBoss/WildFly 36.0.1.Final1.executor": "Run",
+    "JavaScript Debug.PatronCalisan.xhtml (1).executor": "Run",
+    "JavaScript Debug.PatronCalisan.xhtml (2).executor": "Run",
+    "JavaScript Debug.PatronCalisan.xhtml (3).executor": "Run",
+    "JavaScript Debug.PatronCalisan.xhtml (4).executor": "Run",
     "JavaScript Debug.PatronCalisan.xhtml.executor": "Run",
     "JavaScript Debug._01_Named.xhtml.executor": "Run",
     "JavaScript Debug._02_Inject.xhtml.executor": "Run",
     "JavaScript Debug._04_New.xhtml.executor": "Run",
+    "JavaScript Debug.interceptorislogin.xhtml.executor": "Run",
     "Maven.PatikaSpringFramework [clean].executor": "Run",
     "Maven.PatikaSpringFramework [package].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -72,7 +87,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/tapan/Javaproje/PatikaSpringFramework/src/main/webapp/iocsiz_disiz",
+    "last_opened_file_path": "C:/Users/tapan/Javaproje/PatikaSpringFramework/src/main/webapp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,11 +102,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\tapan\Javaproje\PatikaSpringFramework\src\main\webapp\iocsiz_disiz" />
       <recent name="C:\Users\tapan\Javaproje\PatikaSpringFramework\src\main\webapp" />
+      <recent name="C:\Users\tapan\Javaproje\PatikaSpringFramework\src\main\webapp\iocsiz_disiz" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rukiye.qualifier3" />
+      <recent name="com.rukiye.qualifier" />
+      <recent name="com.rukiye.alternative" />
+      <recent name="com.rukiye.iocli_dili" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.PatronCalisan.xhtml">
+  <component name="RunManager" selected="JavaScript Debug.interceptorislogin.xhtml">
     <configuration name="JBoss/WildFly 36.0.1.Final1" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss/WildFly 36.0.1.Final1" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="PatikaSpringFramework:war exploded">
@@ -107,6 +128,24 @@
         <option name="CREDENTIAL_ALIAS" />
       </server-settings>
       <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58263" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -129,24 +168,28 @@
         </option>
       </method>
     </configuration>
-    <configuration name="PatronCalisan.xhtml" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT/iocsiz_disiz/PatronCalisan.xhtml">
+    <configuration name="PatronCalisan.xhtml (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT/iocli_dili/PatronCalisan.xhtml">
       <method v="2" />
     </configuration>
-    <configuration name="_01_Named.xhtml" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT/_01_Named.xhtml">
+    <configuration name="PatronCalisan.xhtml (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT/alternative/PatronCalisan.xhtml">
       <method v="2" />
     </configuration>
-    <configuration name="_03_Inject.xhtml" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT/_03_Inject.xhtml">
+    <configuration name="PatronCalisan.xhtml (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT/qualifier/PatronCalisan.xhtml">
       <method v="2" />
     </configuration>
-    <configuration name="_04_New.xhtml" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT/_04_New.xhtml">
+    <configuration name="PatronCalisan.xhtml (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT/qualifier3/PatronCalisan.xhtml">
+      <method v="2" />
+    </configuration>
+    <configuration name="interceptorislogin.xhtml" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/PatikaSpringFramework-1.0-SNAPSHOT/aop_interceptor/interceptorislogin.xhtml">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.PatronCalisan.xhtml" />
-        <item itemvalue="JavaScript Debug._04_New.xhtml" />
-        <item itemvalue="JavaScript Debug._03_Inject.xhtml" />
-        <item itemvalue="JavaScript Debug._01_Named.xhtml" />
+        <item itemvalue="JavaScript Debug.interceptorislogin.xhtml" />
+        <item itemvalue="JavaScript Debug.PatronCalisan.xhtml (4)" />
+        <item itemvalue="JavaScript Debug.PatronCalisan.xhtml (3)" />
+        <item itemvalue="JavaScript Debug.PatronCalisan.xhtml (2)" />
+        <item itemvalue="JavaScript Debug.PatronCalisan.xhtml (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +213,11 @@
       <workItem from="1753231518941" duration="2148000" />
       <workItem from="1753233701596" duration="313000" />
       <workItem from="1753234027563" duration="2383000" />
-      <workItem from="1753457892588" duration="11178000" />
+      <workItem from="1753457892588" duration="13236000" />
+      <workItem from="1753480225208" duration="2242000" />
+      <workItem from="1753537328325" duration="4970000" />
+      <workItem from="1753572768698" duration="4251000" />
+      <workItem from="1753627056549" duration="6089000" />
     </task>
     <task id="LOCAL-00001" summary="PermaLink">
       <option name="closed" value="true" />
@@ -260,11 +307,78 @@
       <option name="project" value="LOCAL" />
       <updated>1753469402187</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="IOC (-)&#10;DI (-)">
+      <option name="closed" value="true" />
+      <created>1753478146695</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1753478146695</updated>
+    </task>
+    <task id="LOCAL-00013" summary="workspace">
+      <option name="closed" value="true" />
+      <created>1753478167968</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1753478167968</updated>
+    </task>
+    <task id="LOCAL-00014" summary="IOC (+)&#10;DI (+)">
+      <option name="closed" value="true" />
+      <created>1753481816145</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1753481816146</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Alternative">
+      <option name="closed" value="true" />
+      <created>1753542965355</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1753542965355</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Qualifier (2 class)">
+      <option name="closed" value="true" />
+      <created>1753544786578</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1753544786578</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Qualifier (2 class)">
+      <option name="closed" value="true" />
+      <created>1753575912317</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1753575912317</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Qualifier (4 class)">
+      <option name="closed" value="true" />
+      <created>1753576220426</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1753576220426</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="PermaLink" />
@@ -275,11 +389,16 @@
     <MESSAGE value="Java Tutorials" />
     <MESSAGE value="Changes" />
     <MESSAGE value="Shelved" />
-    <MESSAGE value="workspace" />
     <MESSAGE value="Instance&lt;T&gt;" />
     <MESSAGE value="Instance&lt;T&gt; (New)" />
     <MESSAGE value="Scoped" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scoped" />
+    <MESSAGE value="IOC (-)&#10;DI (-)" />
+    <MESSAGE value="workspace" />
+    <MESSAGE value="IOC (+)&#10;DI (+)" />
+    <MESSAGE value="Alternative" />
+    <MESSAGE value="Qualifier (2 class)" />
+    <MESSAGE value="Qualifier (4 class)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Qualifier (4 class)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -288,6 +407,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/rukiye/cdi/_04_New.java</url>
           <line>31</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rukiye/qualifier/QualifierMultiple.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -6,7 +6,7 @@ import jakarta.enterprise.inject.Default;
 import jakarta.inject.Named;
 
 
-@Default
+@QualifierMultiple2(EFazlaSecenekler.UCUNCU)
 @Named("patron1Qualifier3")
 @ApplicationScoped
 public class Patron1 implements PatronInterface {
